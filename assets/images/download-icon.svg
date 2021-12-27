@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ICON</title>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-758.000000, -4750.000000)" id="CTA">
+            <g transform="translate(0.000000, 4641.000000)">
+                <g id="ICON" transform="translate(758.000000, 109.000000)">
+                    <circle id="Oval" fill="#FFFFFF" cx="42" cy="42" r="42"></circle>
+                    <g id="ic_file_download_48px" transform="translate(31.000000, 28.000000)" fill="#5945E3" fill-rule="nonzero">
+                        <path d="M23,9.88235294 L16.4285714,9.88235294 L16.4285714,0 L6.57142857,0 L6.57142857,9.88235294 L0,9.88235294 L11.5,21.4117647 L23,9.88235294 Z M0,24.7058824 L0,28 L23,28 L23,24.7058824 L0,24.7058824 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

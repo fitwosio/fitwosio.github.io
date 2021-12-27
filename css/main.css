@@ -161,7 +161,7 @@
 }
 
 /* OLDLDDD */
-.section-header-container {
+/* .section-header-container {
   position: relative;
   top: 179px;
   left: 230px;
@@ -205,27 +205,17 @@ span.Flex8-is-a-free-soci {
   letter-spacing: normal;
   color: var(--fill-color-color-1);
 }
-.filler-section {
-  height: 689px;
-}
-
-
-.section-follow {
-  height: 793px;
-  width: "100%";
-  background-color: white;
-}
-
-.section-downloadnow {
-  height: 573px;
-  width: "100%";
-  background-color: rgb(110, 74, 216);
-}
 
 .footer-style {
   height: 378px;
   width: "100%";
   background-color: rgb(255, 255, 255);
+} */
+
+
+/* Filler between nav and header */
+.filler-section {
+  height: 689px;
 }
 
 /* Section-header */
@@ -604,13 +594,149 @@ clist-content {
 .section-carousel {
   min-height: 1147px;
   background-color: rgb(9, 32, 88);
+  
 }
 
-/* Section community */
-.section-community {
-  background-color: rgb(245, 245, 248);
+/* Section follow */
+.section-follow {
+  min-height:793px;
+  background-color: white ;
+  padding-top:106px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+
+}
+.section-follow-row-container{
+  max-width:945px;
+  margin-left: 56px;
+  margin-right: 56px;
+}
+.section-follow-column-container{
+    overflow: hidden;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height:100%;
+  font-size:1rem;
+}
+.section-follow-column-container > header{
+  /* max-height:9%; 9% 60px */
+  flex-basis: 9%;
+  flex-grow:2;
+
+  /* width: 945px;
+  height: 62px;
+  margin: 0 0 14px; */
+  font-family: SFProDisplay;
+  font-size: 2.875em; 
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: -0.35px;
+  text-align: center;
+  color: #000;
+
+}
+.section-follow-column-container > content{
+  /* max-height:484px; 10% 70px */
+  flex-basis: 10%;
+  flex-grow:2;
+  max-width:750px;
+  font-family: SFProDisplay;
+  font-size: 1.125em;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  text-align: center;
+  color: #323232;
+}
+.section-follow-column-container > div.img-container{
+  flex-basis:70%;
+  
+  flex-grow:0;
+  overflow: hidden;
+  max-height:487px;
+}
+.section-follow-column-container div.img-container img{
+  max-height:673px;
 }
 
+
+
+/* .section-downloadnow  */
+.section-downloadnow {
+  min-height: 573px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/images/background-download.png');
+
+  justify-content: center;
+  align-items: stretch;
+  display:flex;
+}
+
+.section-downloadnow-row-container{
+  max-width:483px;
+  margin-left: 56px;
+  margin-right: 56px;
+}
+
+.section-downloadnow-column-container{
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.section-downloadnow-column-container > img.download-icon{
+  width:84px;
+  height:auto;
+}
+
+.section-downloadnow-button-container > img{
+  width:239px;
+  height:61px;
+}
+
+.section-downloadnow-column-container > header {
+  /* width: 444px;
+
+  height: 52px;*/
+  margin: 29px 0px 43px 0px; 
+  max-width: 444px;
+  font-family: SFProDisplay;
+  font-size: 2.875em;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: -0.35px;
+  text-align: center;
+  color: var(--fill-color-color-1);
+}
+
+.section-downloadnow-column-container >footer {
+  /* width: 410px;
+  height: 28px;*/
+  margin: 35px 0 7px 0; 
+  font-family: SFProDisplay;
+  font-size: 1em;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--fill-color-color-1);
+}
 /* Section discover */
 .section-discover {
   background-color: white;
@@ -835,5 +961,37 @@ height: 100%;  }
 
   clist-content {
     text-align: left;
+  }
+
+  /* SECTION FOLLOW */
+  .section-follow {
+    min-height:auto;
+  }
+  .section-follow-row-container{
+    
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .section-follow-column-container{
+    font-size: 0.8rem;
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+  .section-follow-column-container > header{
+    flex-basis:20%
+  }
+  .section-follow-column-container > content{
+    flex-basis:20%
+  }
+  .section-follow-column-container > div.img-container 
+  {
+    flex-basis:60%;
+    max-width:100%;
+  }
+  .section-follow-column-container div.img-container img{
+    position:relative;
+    left:10%;
   }
 }
