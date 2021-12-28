@@ -594,13 +594,22 @@ span.section-header-text-header {
   justify-content: flex-start;
 }
 .section-footer-top-container {
-  flex-basis:80%; display:flex;flex-direction: row;flex-wrap:wrap; margin-left:20px;
+  flex-basis: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 20px;
 }
 .section-footer-bottom-container {
-  flex-basis:20%; display:flex;flex-direction: row;flex-wrap:wrap;    margin-right: 20px;margin-left:20px;
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  margin-left: 20px;
 }
-.section-footer-top-left-container{
-  flex:1 1 383.5px;
+.section-footer-top-left-container {
+  flex: 1 1 383.5px;
 }
 .section-footer-top-left-container > div {
   max-width: 80%;
@@ -614,16 +623,19 @@ span.section-header-text-header {
   line-height: 1.78;
   letter-spacing: normal;
   color: #000;
-  margin-top:2px;
+  margin-top: 2px;
 }
-.section-footer-top-right-container{
-  flex:1 1 383.5px;display:flex;flex-direction: row;font-size:1rem;
+.section-footer-top-right-container {
+  flex: 1 1 383.5px;
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
 }
 
 .section-footer-top-right-container div header {
   /* width: 165px;
   height: 32px;*/
-  margin: 0 0 16px; 
+  margin: 0 0 16px;
   font-family: SFProDisplay;
   font-size: 1.125em;
   font-weight: 600;
@@ -646,8 +658,8 @@ span.section-header-text-header {
   letter-spacing: normal;
   color: #000;
 }
-.section-footer-copyright-container{
-  flex:1 0;
+.section-footer-copyright-container {
+  flex: 1 0;
   font-family: SFProDisplay;
   font-size: 0.75em;
   font-weight: normal;
@@ -657,8 +669,10 @@ span.section-header-text-header {
   letter-spacing: normal;
   color: #000;
 }
-.section-footer-social-container{
-  flex:0 1; display:flex;flex-direction: row;
+.section-footer-social-container {
+  flex: 0 1;
+  display: flex;
+  flex-direction: row;
 }
 .section-footer-logo-container {
   display: flex;
@@ -1087,25 +1101,23 @@ clist-content {
   /* -------------------------------------------------------------------------- */
   /* Section download now */
   .section-downloadnow-button-container > img {
-    margin-top:10px;
+    margin-top: 10px;
   }
-/* -------------------------------------------------------------------------- */
+  /* -------------------------------------------------------------------------- */
   /* footer section */
 
-
-
-  .section-footer-bottom-container{
-    padding-top:57px;
-    padding-bottom:10px;
+  .section-footer-bottom-container {
+    padding-top: 57px;
+    padding-bottom: 10px;
   }
   .section-footer-top-left-container {
-    margin-bottom:10px;
+    margin-bottom: 10px;
   }
-  .section-footer-top-left-container > img{
-    margin-bottom:10px;
+  .section-footer-top-left-container > img {
+    margin-bottom: 10px;
   }
   .section-footer-top-right-container div header {
-    margin: 0 0 5px; 
+    margin: 0 0 5px;
   }
 
   /* -------------------------------------------------------------------------- */
@@ -1152,6 +1164,4 @@ clist-content {
   clist-content {
     text-align: left;
   }
-
-  
 }
