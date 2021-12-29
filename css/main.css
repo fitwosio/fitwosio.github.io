@@ -430,9 +430,42 @@ span.section-header-text-header {
 /* -------------------------------------------------------------------------- */
 .section-carousel {
   min-height: 1147px;
+  padding-top: 102px;
   background-color: rgb(9, 32, 88);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1em;
+}
+.section-carousel header {
+  max-width: 945px;
+  /* height: 52px;*/
+  margin: 0 0 24px;
+  font-family: SFProDisplay;
+  font-size: 2.875em;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: -0.35px;
+  text-align: center;
+  color: var(--fill-color-color-1);
 }
 
+.section-carousel content {
+  /* height: 64px; */
+  max-width: 700px;
+  margin: 24px 97px 0 98px;
+  font-family: SFProDisplay;
+  font-size: 1.125em;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  text-align: center;
+  color: #dbe4f1;
+}
 /* -------------------------------------------------------------------------- */
 /*                               Section follow                               */
 /* -------------------------------------------------------------------------- */
@@ -1066,7 +1099,15 @@ clist-content {
     flex-wrap: wrap;
     text-align: center;
   }
+  /* -------------------------------------------------------------------------- */
+  /* Section carousel */
 
+  .section-carousel {
+    padding-top:70px;
+    font-size: 0.9em;
+    min-height:auto;
+    padding-bottom:70px;
+  }
   /* -------------------------------------------------------------------------- */
   /* SECTION FOLLOW */
   .section-follow {

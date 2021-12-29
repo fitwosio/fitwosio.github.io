@@ -34,5 +34,4 @@ window.onscroll = function () {
     const children = parent.children.item(index);
     children.style.color=opacity>0.5?`rgb(0,0,0,${opacity}`:`rgb(255,255,255,${1-opacity})`;
   }
- 
 }
