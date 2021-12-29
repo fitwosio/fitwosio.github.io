@@ -58,6 +58,7 @@
   align-items: center;
   justify-content: center;
   background-size: cover;
+  border:0;
 }
 
 .card.highlight {
