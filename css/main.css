@@ -49,31 +49,6 @@
   font-stretch: normal;
 }
 
-/* @keyframes transition-white{
-  0% {
-    background-color: transparent;
-  }
-  100% {
-    background-color: white;
-  }
-}
-
-@keyframes transition-transparent{
-  0% {
-    background-color: white;
-  }
-  100% {
-    background-color: transparent;
-  }
-}
-@media (prefers-reduced-motion: no-preference) {
-  .nav-transition-white {
-    animation: transition-white 1s 1;
-  }
-  .nav-transition-transparent {
-    animation: transition-transparent 1s 1;
-  }
-} */
 
 /* -------------------------------------------------------------------------- */
 /*                                 nav styles                                 */
@@ -165,61 +140,6 @@
     var(--coral-pink) 98%
   );
 }
-
-/* -------------------------------------------------------------------------- */
-/*                          OLDLDDD CSS to be removed                         */
-/* -------------------------------------------------------------------------- */
-
-/* .section-header-container {
-  position: relative;
-  top: 179px;
-  left: 230px;
-  height: 401px;
-  display: flex;
-  flex-direction: column;
-  width: 543px;
-  justify-content: space-between;
-}
-.section-header-subtext-container {
-  width: 453px;
-}
-.section-header-download-button-container {
-  justify-content: space-between;
-  display: flex;
-  width: 496px;
-}
-span.Fitness-with-friends {
-  width: 543px;
-  height: 212px;
-  margin: 0 0 19px;
-  font-family: SFProDisplay;
-  font-size: 56px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.21;
-  letter-spacing: -0.3px;
-  color: var(--fill-color-color-1);
-}
-span.Flex8-is-a-free-soci {
-  width: 453px;
-  height: 98px;
-  margin: 19px 90px 11px 0;
-  font-family: SFProDisplay;
-  font-size: 20px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.7;
-  letter-spacing: normal;
-  color: var(--fill-color-color-1);
-}
-
-.footer-style {
-  height: 378px;
-  width: "100%";
-  background-color: rgb(255, 255, 255);
-} */
 
 /* -------------------------------------------------------------------------- */
 /*                        Filler between nav and header                       */

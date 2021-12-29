@@ -1,25 +1,3 @@
-// var prevScrollpos = window.pageYOffset;
-// window.onscroll = function () {
-//   var currentScrollPos = window.pageYOffset;
-//   if(prevScrollpos>currentScrollPos && currentScrollPos > 50){
-//     document.getElementById('navbar').classList.add('nav-transition-white');
-//     document.getElementById('navbar').classList.add('nav-transition-transparent');
-//   }else if(prevScrollpos<=currentScrollPos && currentScrollPos <= 50){
-//     document.getElementById('navbar').classList.remove('nav-transition-transparent');
-//     document.getElementById('navbar').classList.add('nav-transition-white');
-//   }
-//   prevScrollpos = currentScrollPos;
-
-//   // var currentScrollPos = window.pageYOffset;
-//   // if (prevScrollpos > currentScrollPos) {
-//   //   // document.getElementById("navbar").style.top = "0";
-//   //   console.log("0");
-//   // } else {
-//   //   // document.getElementById("navbar").style.top = "-50px";
-//   //   console.log("1");
-//   // }
-//   // prevScrollpos = currentScrollPos;
-// };
 
 window.onscroll = function () {
   const opacity = Math.max((window.scrollY-50)/100,0);
