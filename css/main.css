@@ -489,7 +489,10 @@ span.section-header-text-header {
   width: 84px;
   height: auto;
 }
-
+.section-downloadnow-button-container {
+  display:flex;
+  flex-direction: column;
+}
 .section-downloadnow-button-container > img {
   width: 239px;
   height: 61px;
@@ -1057,7 +1060,7 @@ clist-content {
   }
   .section-follow-column-container div.img-container img {
     position: relative;
-    left: 10%;
+    /* left: 10%; */
   }
   /* -------------------------------------------------------------------------- */
   /* Section download now */
@@ -1072,10 +1075,11 @@ clist-content {
     padding-bottom: 10px;
   }
   .section-footer-top-left-container {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
   }
   .section-footer-top-left-container > img {
-    margin-bottom: 10px;
+    height:70px;
+    margin-bottom: 20px;
   }
   .section-footer-top-right-container div header {
     margin: 0 0 5px;
@@ -1116,7 +1120,7 @@ clist-content {
     align-items: center; */
   }
   .phone-img {
-    max-width: 550px;
+    /* max-width: 550px; */
     min-width: 80%;
     /* margin: auto; */
     /* object-position: 0 50%; */
@@ -1124,5 +1128,12 @@ clist-content {
 
   clist-content {
     text-align: left;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .filler-section{
+    height:500px;
   }
 }
